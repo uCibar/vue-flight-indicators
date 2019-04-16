@@ -1,11 +1,11 @@
 <template>
   <Wrapper v-bind:size="size">
-    <img src="../assets/img/speed_mechanics.svg" class="indicator-box" alt="">
+    <img src="./assets/img/speed_mechanics.svg" class="indicator-box" alt="">
     <div class="speed indicator-box" v-bind:style="indicateAirspeed">
-      <img src="../assets/img/fi_needle.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_needle.svg" class="indicator-box" alt="">
     </div>
     <div class="mechanics indicator-box">
-      <img src="../assets/img/fi_circle.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_circle.svg" class="indicator-box" alt="">
     </div>
   </Wrapper>
 </template>

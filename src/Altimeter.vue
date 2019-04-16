@@ -1,17 +1,17 @@
 <template>
   <Wrapper v-bind:size="size">
     <div class="pressure indicator-box" v-bind:style="indicatePressure">
-      <img src="../assets/img/altitude_pressure.svg" class="indicator-box" alt="">
+      <img src="./assets/img/altitude_pressure.svg" class="indicator-box" alt="">
     </div>
-    <img src="../assets/img/altitude_ticks.svg" class="indicator-box" alt="">
+    <img src="./assets/img/altitude_ticks.svg" class="indicator-box" alt="">
     <div class="needleSmall indicator-box" v-bind:style="indicateAltitudeSmall">
-      <img src="../assets/img/fi_needle_small.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_needle_small.svg" class="indicator-box" alt="">
     </div>
     <div class="needle indicator-box" v-bind:style="indicateAltitude">
-      <img src="../assets/img/fi_needle.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_needle.svg" class="indicator-box" alt="">
     </div>
     <div class="mechanics indicator-box">
-      <img src="../assets/img/fi_circle.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_circle.svg" class="indicator-box" alt="">
     </div>
   </Wrapper>
 </template>

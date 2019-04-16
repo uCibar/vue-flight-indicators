@@ -1,11 +1,11 @@
 <template>
   <Wrapper v-bind:size="size">
     <div class="heading indicator-box" v-bind:style="indicateHeading">
-      <img src="../assets/img/heading_yaw.svg" class="indicator-box" alt="">
+      <img src="./assets/img/heading_yaw.svg" class="indicator-box" alt="">
     </div>
     <div class="mechanics indicator-box">
-      <img src="../assets/img/heading_mechanics.svg" class="indicator-box" alt="">
-      <img src="../assets/img/fi_circle.svg" class="indicator-box" alt="">
+      <img src="./assets/img/heading_mechanics.svg" class="indicator-box" alt="">
+      <img src="./assets/img/fi_circle.svg" class="indicator-box" alt="">
     </div>
   </Wrapper>
 </template>
